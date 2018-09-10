@@ -1,5 +1,3 @@
-const path = require('path')
-const favicon = require('serve-favicon')
 const compress = require('compression')
 const cors = require('cors')
 const helmet = require('helmet')
@@ -9,7 +7,6 @@ const feathers = require('@feathersjs/feathers')
 const configuration = require('@feathersjs/configuration')
 const express = require('@feathersjs/express')
 const socketio = require('@feathersjs/socketio')
-
 
 const middleware = require('./middleware')
 const services = require('./services')
